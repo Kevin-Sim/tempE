@@ -14,7 +14,7 @@ public class AppIntegrationTest {
     @BeforeAll
     static void init() {
         app = new App();
-        app.connect("database:3306");
+        app.connect("database:33060");
     }
 
     @Test
